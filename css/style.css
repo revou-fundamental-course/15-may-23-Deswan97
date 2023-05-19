@@ -1,0 +1,48 @@
+body {
+  background: rgba(211, 211, 211, 0.505);
+}
+header {
+  background: #91a5fa;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}
+.subtitle {
+  color: gray;
+  font-size: small;
+}
+
+.hitung-luas-persegi {
+  text-align: center;
+}
+
+.card {
+  background: white;
+}
+
+.figure {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contoh-square {
+  border: 1px solid red;
+  height: 20px;
+  width: 20px;
+}
+
+.result-luas {
+  visibility: hidden;
+}
