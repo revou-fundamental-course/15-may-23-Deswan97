@@ -1,0 +1,97 @@
+body {
+  background: rgba(211, 211, 211, 0.505);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #91a5fa;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+.title:hover {
+  color: blanchedalmond;
+}
+
+.subtitle {
+  color: black;
+  font-size: 14px;
+}
+
+.hitung-luas-persegi,
+.hitung-keliling-persegi {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.figure {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contoh-square {
+  border: 2px solid red;
+  height: 50px;
+  width: 50px;
+}
+
+.result-luas,
+.result-keliling {
+  visibility: hidden;
+  margin: 10px 0;
+}
+
+button {
+  background: #91a5fa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#tombol-reset-luas {
+  background: rgb(255, 38, 0);
+  color: black;
+  float: right;
+}
+
+#tombol-reset-luas:hover {
+  background-color: goldenrod;
+}
+#tombol-reset-keliling {
+  background: rgb(255, 38, 0);
+  color: black;
+  float: right;
+}
+
+#tombol-reset-keliling:hover {
+  background-color: goldenrod;
+}
+
+button:hover {
+  background: #7b92db;
+}
